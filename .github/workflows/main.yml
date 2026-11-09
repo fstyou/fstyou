@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Image 1 — Profile / development activity
+      # Image 1
       - name: Generate profile metrics
         uses: lowlighter/metrics@latest
         with:
@@ -46,13 +46,15 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_stars: yes
+          plugin_stars_limit: 4
           plugin_lines: yes
           plugin_lines_history_limit: 5
           plugin_lines_repositories_limit: 5
           plugin_lines_sections: base
           repositories_forks: yes
 
-      # Image 2 — Pinned repositories / calendars / stars / social
+      # Image 2
       - name: Generate social metrics
         uses: lowlighter/metrics@latest
         with:
@@ -76,8 +78,6 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: classic
           plugin_stargazers_days: 14
-          plugin_stars: yes
-          plugin_stars_limit: 4
           plugin_people: yes
           plugin_people_limit: 25
           plugin_people_size: 25
