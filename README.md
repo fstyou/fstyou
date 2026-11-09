@@ -24,7 +24,16 @@
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat-square&logo=latex&logoColor=white) 
 
 ## 📊 GitHub Stats:
-![Profile Metrics](./metrics-profile.svg)
-![Social Metrics](./metrics-social.svg)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./metrics-profile.svg" width="100%" alt="Profile Metrics">
+    </td>
+    <td width="50%" valign="top">
+      <img src="./metrics-social.svg" width="100%" alt="Social Metrics">
+    </td>
+  </tr>
+</table>
+
 ---
 [![](https://komarev.com/ghpvc/?username=fstu&icon=0&color=0&)](https://visitcount.itsvg.in)
