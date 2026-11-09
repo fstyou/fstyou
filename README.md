@@ -1,10 +1,6 @@
 # Hi, I'm fstu
 **A student at Henan University of Engineering**
 
-
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:git@fstu.cc) 
-
 ## 💻 Tech Stack:
 [![Codeforces](https://codeforces-readme-stats.vercel.app/api/badge?username=fstu)](https://codeforces.com/profile/fstu) 
 ![maimai DX Rating](https://dxrating.luoling.moe/api/genImage/fstu) 
